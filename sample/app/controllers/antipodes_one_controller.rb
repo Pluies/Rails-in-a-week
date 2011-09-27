@@ -7,7 +7,8 @@ class AntipodesOneController < ApplicationController
   end
   def reverse
     result = Geocoder.search(params[:test]).first
-    lat, lng = -result.latitude, -result.longitude
+    lng = if result.longitude<0 then result.longitude+180 else result.longitude-180 end
+    lat = -result.latitude
     @json = '[{"lng":"'+lng.to_s+'", "lat":"'+lat.to_s+'"}]'
     render "show"
   end

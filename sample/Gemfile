@@ -35,6 +35,16 @@ end
 # Strange Rails defaults
 gem "therubyracer"
 
+# Testing
+group :development do
+  gem 'rspec-rails', '2.6.1'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
+
 # Google Maps
 gem "gmaps4rails"
 gem "geocoder"
