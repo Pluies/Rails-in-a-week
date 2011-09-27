@@ -1,5 +1,5 @@
 set :application, "antipodes"
-set :repository,  "file:///rails/.git"
+set :repository,  "ssh://root@vps10371.ovh.net/home/florent/rails.git"
 
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
