@@ -21,8 +21,9 @@ gem 'jquery-rails'
 # Use unicorn as the web server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+# Deploy with Capistrano+RVM
+gem 'capistrano'
+gem 'rvm'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
@@ -48,4 +49,5 @@ end
 # Google Maps
 gem "gmaps4rails"
 gem "geocoder"
+
 
