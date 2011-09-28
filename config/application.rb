@@ -41,6 +41,8 @@ module Sample
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    # And additionnal assets
+    config.assets.precompile += ['gmaps4rails.css']
 
     # Allow live compiling of assets
     config.assets.compile = true

@@ -9,3 +9,4 @@ jquery-ui.min.js: jquery-ui-7e33882a28fc84ad0e0e47e46cbf901c.min.js
 jquery.min.js: jquery-8a50feed8d29566738ad005e19fe1c2d.min.js
 application.js: application-a7d713e32561d3a78e8e65957c0b13cc.js
 application.css: application-827d558a2eec032f72c463c943b0c80c.css
+gmaps4rails.css: gmaps4rails-abd70802a263d832e4d7a0a097369eaf.css

@@ -26,14 +26,6 @@ server "vps10371.ovh.net", :web, :app, :db, :primary => true
 
 set :use_sudo, false
 
-#before 'deploy:finalize_update', 'x:set_current_release'
-#task :set_current_release, :roles => :app do
-#    set :current_release, latest_release
-#end
-
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
-
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
   task :start do ; end
